@@ -1,0 +1,432 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Freeman Curriculum Vitae
+% XeLaTeX Template
+% Version 3.0 (September 3, 2021)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%!TEX program = xelatex
+% NOTE: this template must be compiled with XeLaTeX rather than PDFLaTeX
+% due to the custom fonts used. The line above should ensure this happens
+% automatically, but if it doesn't, your LaTeX editor should have a simple toggle
+% to switch to using XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	10pt, % Default font size, can be between 8pt and 12pt
+]{FreemanCV}
+
+\columnratio{0.60, 0.40} % Widths of the two columns, specified here as a ratio summing to 1 to correspond to percentages; adjust as needed for your content
+
+% Headers and footers can be added with the following commands: \lhead{}, \rhead{}, \lfoot{} and \rfoot{}
+% Example right footer:
+%\rfoot{\textcolor{headings}{\sffamily Last update: \today. Typeset with Xe\LaTeX}}
+
+\usepackage{enumitem}
+\setlist[itemize]{align=parleft,left=0pt..1em, itemsep=0.5pt}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{paracol}{2} % Begin two-column mode
+
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CURRICULUM VITAE TITLE
+%----------------------------------------------------------------------------------------
+
+\parbox[][0.11\textheight][c]{\linewidth}{ % Box to hold your name and CV title; change the fixed height as needed to match the colored box to the right
+	% \centering % Horizontally center text
+
+	{\sffamily\Huge \textbf{Jack Hogan}} % Your name
+
+	% \medskip % Vertical whitespace
+
+	% {\cursivefont\Huge\textcolor{headings}{Curriculum Vitae}}
+
+	% \vfill % Push content to the top of the box
+}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+% Each job is added with a \jobentry command. Below is an empty one to use as a template:
+
+%\jobentry
+%	{} % Duration
+%	{} % FT/PT (full time or part time)
+%	{} % Employer
+%	{} % Job title
+%	{} % Description
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\jobentry
+	{2020 -- Present} % Duration
+	{} % FT/PT (full time or part time)
+	{Alluja LLC} % Employer
+	{Founder and CTO} % Job title
+	{Alluja LLC is a dynamic startup involved in multiple technical projects and initiatives including:\begin{itemize}
+		\item KnokKnok, a mobile application with over 1,000 users. KnokKnok incorporates a sophisticated front end UX/UI in \textbf{SwiftUI}, a web front end in \textbf{Svelte}, patent-pending cross-block technology, an API to multiple external services, and back-end data handling in \textbf{Python}.
+		\item Alluja WebSockets for macOS, written in \textbf{Swift}
+		\item Multiple plugins for BetterDiscord, all written in \\\textbf{Java/TypeScript} with over 5,000 users
+		\item A pipeline-based WebRTC library written in \textbf{Rust}
+	\end{itemize}} % Description
+
+%------------------------------------------------
+
+\jobentry
+	{2023 -- Present} % Duration
+	{} % FT/PT (full time or part time)
+	{Purdue Orbital} % Employer
+	{Avionics Design Lead} % Job title
+	{Purdue Orbital is a space team working to create a rocket launch system with the eventual goal of being the first independent college organization to put a satellite in space. Using my knowledge of distributed systems and aeronautics, I lead a team working to create a fault-tolerant and compact system to activate\\ various rocketry systems while collecting data for assorted launch missions. I also work with other Design Leads and the Chief Engineer to improve\\ workflows throughout Purdue Orbital and to increase recruitment targeting Computer Science majors.} % Description
+
+%------------------------------------------------
+
+\jobentry
+	{2018 -- 2022} % Duration
+	{} % FT/PT (full time or part time)
+	{Fixit Solutions} % Employer
+	{Founder} % Job title
+	{Technology service company for repair of computers, tablets, laptops, mobile phones, TVs, and game consoles. Also provided data recovery, software\\ troubleshooting, custom computer builds, and security assessments.} % Description
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+% Each qualification entry is added with a \qualificationentry command. Below is an empty one to use as a template:
+
+%\qualificationentry
+%	{} % Duration
+%	{} % Degree
+%	{} % Honors, achievements or distinctions (e.g. first class honors)
+%	{} % Department
+%	{} % Institution
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+	\qualificationentry
+		{2022-2026} % Duration
+		{Bachelor of Science Candidate} % Degree
+		{Purdue University Honors College} % Institution
+		{Double Major: Computer Science \& Artificial Intelligence} % Department
+		{Minor: Mathematics}
+		{Junior Standing, 82 Credits} % Honors, achievements or distinctions (e.g. first class honors)
+
+	%------------------------------------------------
+
+	\qualificationentry
+		{2019-2022} % Duration
+		{Advanced Diploma} % Degree
+		{Chantilly High School} % Institution
+		{} % Department
+		{}
+		{Honors Graduate} % Honors, achievements or distinctions (e.g. first class honors)
+
+	%------------------------------------------------
+
+\end{supertabular}
+
+% %----------------------------------------------------------------------------------------
+% %	REFERENCES
+% %----------------------------------------------------------------------------------------
+
+% \section{References}
+
+% %\textit{References available on request} % Uncomment if you'd rather not include references and remove the section below
+
+% %------------------------------------------------
+
+% % This section is laid out using a table. A \tableentry command adds lines with the following parameters:
+
+% %\tableentry{Heading}{Content}{spaceafter}
+% % All 3 parameters must be supplied but any can be empty if you don't need them
+% % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
+
+% %------------------------------------------------
+
+% \begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+
+% 	%------------------------------------------------
+
+% 	\tableentry{}{\textbf{Dr. Isaac Kleiner}}{spaceafter}
+% 	\tableentry{Position}{Professor}{}
+% 	\tableentry{Employer}{\href{https://web.mit.edu/physics/}{Department of Physics}}{}
+% 	\tableentry{}{\href{https://web.mit.edu}{\textit{Massachusetts Institute of Technology}}}{spaceafter}
+% 	\tableentry{Phone}{+1 (617) 253 1000 x5322 (Work)}{}
+% 	\tableentry{Mobile}{+1 (232) 842-3583}{}
+
+% 	%------------------------------------------------
+
+% 	\\ % Additional vertical whitespace between the references
+
+% 	%------------------------------------------------
+
+% 	\tableentry{}{\textbf{Dr. Eli Vance}}{spaceafter}
+% 	\tableentry{Position}{Scientist (HL1)}{}
+% 	\tableentry{Employer}{\href{http://www.bmrf.us}{Black Mesa Research Facility}}{spaceafter}
+% 	\tableentry{Email}{\href{mailto:e.vance@bmrf.us}{e.vance@bmrf.us}}{}
+% 	\tableentry{Phone}{+1 (800) 786-1410 x6235 (Work)}{}
+% 	\tableentry{Mobile}{+1 (201) 632-3901}{}
+
+% 	%------------------------------------------------
+
+% \end{supertabular}
+
+% \medskip % Extra vertical whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+
+\switchcolumn % Switch to the second (right) column
+
+%----------------------------------------------------------------------------------------
+%	COLORED CONTACT DETAILS BOX
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.11\textheight][c]{\linewidth}{ % Box to hold the colored box; change the fixed height as needed to match the box to the left
+	\colorbox{shade}{ % Create colored box and specify background color
+		\begin{supertabular}{@{\hspace{3pt}} p{0.05\linewidth} | p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
+			\raisebox{-1pt}{\faHome} & DC Metro | West Lafayette, IN \\ % Address
+			\raisebox{-1pt}{\faPhone} & +1 (703) 919-2976 \\ % Phone number
+			\raisebox{-1pt}{\small\faEnvelope} & \href{mailto:jackhogan11@gmail.com}{jackhogan11@gmail.com} \\ % Email address
+			%\raisebox{-1pt}{\small\faDesktop} & \href{https://www.LaTeXTemplates.com}{https://www.LaTeXTemplates.com} \\ % Website
+			\raisebox{-1pt}{\faGithub} & \href{https://github.com/ImTheSquid}{GitHub/ImTheSquid} \\ % GitHub profile
+			\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/jackhogan11}{LinkedIn/Jackhogan11} \\ % LinkedIn profile
+			% See fontawesome.pdf in the Fonts folder for all icons you can use
+		\end{supertabular}
+	}
+	\vfill % Push content to the top of the box
+}
+
+%----------------------------------------------------------------------------------------
+%	MAJOR RESEARCH PROJECT
+%----------------------------------------------------------------------------------------
+
+\section{Research}
+
+{\raggedright\textbf{``Detecting Source Code Plagiarism in Submitted Assignments"}\par}
+
+\medskip % Vertical whitespace
+
+% Worked on a research team to discover and explore solutions to source code plagiarism in the Computer Science program at Purdue. Research areas include Abstract Syntax Trees, source code lexing and\\ parsing, similarity analysis, tree theory, and graph theory.
+Selected for faculty research position focused on\\ developing solutions for source code plagiarism in the Purdue Computer Science program. Research areas include Abstract Syntax Trees, source code\\ lexing and parsing, similarity analysis, tree theory, and graph theory.
+
+\medskip % Extra vertical whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Programming Languages}
+
+% This section is laid out using a table. A \tableentry command adds lines with the following parameters:
+
+%\tableentry{Heading}{Content}{spaceafter}
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
+
+%------------------------------------------------
+
+\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+	\tableentry{Backend}{Java, C\#, Python, SQL, MongoDB}{spaceafter}
+
+	%------------------------------------------------
+
+	\tableentry{Frontend}{Swift, Kotlin, Svelte, JavaScript,}{}
+	\tableentry{}{TypeScript, HTML, CSS}{spaceafter}
+
+	%------------------------------------------------
+
+	\tableentry{System}{Rust, C, C++}{spaceafter}
+
+	%------------------------------------------------
+
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Frameworks}
+
+% This section is laid out using a table. A \tableentry command adds lines with the following parameters:
+
+%\tableentry{Heading}{Content}{spaceafter}
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
+
+%------------------------------------------------
+
+\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+	\tableentry{Backend}{SvelteKit, Django, Actix Web,}{}
+	\tableentry{}{Flask, Spring Boot, Express}{spaceafter}
+
+	%------------------------------------------------
+
+	\tableentry{Frontend}{SwiftUI, UIKit, Jetpack Compose,}{}
+	\tableentry{}{React, Svelte}{spaceafter}
+
+	%------------------------------------------------
+
+	\tableentry{System}{GStreamer, Unix, Systemd,}{}
+	\tableentry{}{PulseAudio}{spaceafter}
+
+	%------------------------------------------------
+
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+% This section is laid out using a table. A \tableentry command adds lines with the following parameters:
+
+%\tableentry{Heading}{Content}{spaceafter}
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
+
+%------------------------------------------------
+
+\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+	\tableentry{2022}{\textbf{Outstanding Graduate in Technology}}{}
+	\tableentry{}{\textit{Chantilly High School}}{spaceafter}
+
+	%------------------------------------------------
+
+	\tableentry{2021}{\textbf{Provisional Patent 63183035}}{}
+	\tableentry{}{\textbf{for KnokKnok}}{}
+	\tableentry{}{\textit{USPTO}}{spaceafter}
+
+	%------------------------------------------------
+
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS DESCRIPTION
+%----------------------------------------------------------------------------------------
+
+\section{Clubs \& Associations}
+
+\begin{itemize}
+	\item Purdue Orbital
+	\item Purdue SIGAPP
+	\item Purdue Hackers
+	\item Purdue University Ski \& Snowbard Club
+	\item Boiler Book Club
+	\item Mensa International
+\end{itemize}
+
+% \subsection{Purdue Orbital}
+
+% A space team working to create a rocket launch\\ system with the eventual goal of being the first\\ independent college organization to put a satellite in space.
+
+% \subsection{Purdue SIGAPP}
+
+% Senior member working with a team to create\\ various mobile applications to be deployed within Purdue and around the world. Recently worked to update workflows to increase productivity and club attractiveness.
+
+% \subsection{Purdue Hackers}
+
+% Working with a team to create various projects\\ including websites, physical hardware, and games.
+
+% %----------------------------------------------------------------------------------------
+% %	PUBLICATIONS
+% %----------------------------------------------------------------------------------------
+
+% \section{Publications}
+
+% %------------------------------------------------
+
+% \textbf{Freeman, G. R.} (1996). Chemistry of Multiply Charged Negative Molecular Ions and Clusters in the Gas Phase:  Terrestrial and in Intense Galactic Magnetic Fields. \textit{The Journal of Physical Chemistry}, \textit{100}(11), 4331-4338.
+
+% \medskip % Vertical whitespace
+
+% Jacobsen, F. M., Gee, N., \textbf{Freeman, G. R.} (1986). Electron mobility in liquid krypton as function of density, temperature, and electric field strength. \textit{Physical Review A}, \textit{34}(3): 2329-2335.
+
+% \medskip % Vertical whitespace
+
+% %------------------------------------------------
+
+% % As an alternative to a long-form publication list, you can create a shorter summary using only DOI values and years.
+
+% % Example \doipublication{} command to add another publication:
+
+% %\doipublication{Year}{DOI}{firstauthor}{spaceafter}
+
+% % All four parameters are required (can be empty though)
+% % A value of "firstauthor" in the third parameter will output the DOI in bold
+% % A "spaceafter" value in the fourth parameter will add some vertical space -- this is to be used between years
+
+% %------------------------------------------------
+
+% \subsection{Publications by DOI}
+
+% \begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+
+% 	%------------------------------------------------
+
+% 	\doipublication{1996}{10.1021/jp951483+}{firstauthor}{spaceafter}
+
+% 	%------------------------------------------------
+
+% 	\doipublication{1990}{10.1139/p90-097}{firstauthor}{spaceafter}
+
+% 	%------------------------------------------------
+
+% 	\doipublication{1986}{10.1139/v86-297}{}{}
+% 	\doipublication{}{10.1103/PhysRevA.34.2329}{}{spaceafter}
+
+% 	%------------------------------------------------
+
+% 	& \textit{First author publications in} \textbf{bold}\\
+
+% 	%------------------------------------------------
+
+% \end{supertabular}
+
+% \medskip % Extra whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+
+\end{paracol} % End two-column mode
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
