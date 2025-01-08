@@ -1,0 +1,177 @@
+contacts:
+  name: Jack Hogan
+  email: jackhogan11@gmail.com
+  phone: 703-919-2976
+  address: "DC Metro, VA / Lafayette, IN"
+  linkedin:
+    url: https://www.linkedin.com/in/jackhogan11/
+    displayText: in/jackhogan11
+  github:
+    url: https://github.com/ImTheSquid/
+    displayText: "gh/ImTheSquid"
+  website:
+    url: https://jackhogan.me
+    displayText: www.jackhogan.me
+
+tagline: Double major in Computer Science and Artificial Intelligence with extensive experience in software engineering, AI/ML, and leadership roles in tech organizations.
+
+objective: "Aspiring researcher with a passion for AI/ML, low-level programming, and full-stack development. Seeking opportunities to leverage technical expertise, leadership skills, and a commitment to innovation in challenging and impactful projects."
+
+jobs:
+  - position: High-Performance Software Intern
+    company:
+      name: Leidos Innovation Center
+    description:
+      - Created and refined GPU-based signal processing algorithms in CUDA, Rust, and Python for real-time applications.
+      - Developed a real-time machine learning system to lock onto hidden radar targets using PyTorch.
+    from: Summer 2024
+    to: Present
+    tags:
+      - GPU Programming
+      - Signal Processing
+      - Machine Learning
+    location: Arlington, VA
+
+  - position: Software Engineering Intern
+    company:
+      name: Peraton
+    description:
+      - Expanded ServiceNow’s Artificial Intelligence module using JavaScript and Document Intelligence.
+      - Authored and presented a whitepaper on systems and processes developed, managing daily intern standups.
+    from: Summer 2023
+    to: Present
+    tags:
+      - AI Development
+      - JavaScript
+      - ServiceNow
+    location: Chantilly, VA
+
+  - position: Founder
+    company:
+      name: Alluja LLC
+    description:
+      - Leading multiple technical projects, including mobile apps (SwiftUI), libraries (Swift, Rust), backend servers (Rust, Python), frontends (Svelte, Leptos), and BetterDiscord plugins with 5,000+ users.
+    from: "2020"
+    to: Present
+    tags:
+      - Entrepreneurship
+      - Full-stack Development
+      - Open-source
+    location: Chantilly, VA
+
+education:
+  - degree: Bachelor of Science Candidate
+    institution: Purdue University Honors College
+    majors:
+      - Computer Science
+      - Artificial Intelligence
+    minor: Mathematics
+    gpa: 3.6
+    from: Fall 2022
+    to: Spring 2026
+    location: West Lafayette, IN
+    blurb:
+      - 3.75 GPA, 1550 SAT
+      - "Relevant Coursework: Data Structures, Machine Learning, AI, Analysis of Algorithms, Abstract Algebra"
+
+research:
+  - title: "Lead Researcher"
+    group: "Detecting Source Code Plagiarism in Submitted Assignments"
+    location: "West Lafayette, IN"
+    from: Spring 2023
+    to: Present
+    description:
+      - Leading a faculty-selected research team focused on solutions for source code plagiarism in Purdue’s Computer Science program.
+      - Researching Abstract Syntax Trees, source code lexing and parsing, and machine learning techniques.
+    tags:
+      - Research
+      - Machine Learning
+      - Academic Integrity
+
+  - title: Engineering Division Lead
+    group: Purdue Hackers
+    description:
+      - Overseeing all engineering projects, managing time and budget restrictions while keeping engineering officers on pace.
+      - Managing the infrastructure for the Passports initiative, including authentication and management systems written in Rust and TypeScript.
+    from: Jan 2024
+    to: Present
+    tags:
+      - Leadership
+      - Rust
+      - TypeScript
+    location: West Lafayette, IN
+
+  - title: Avionics Design Lead
+    group: Purdue Orbital
+    description:
+      - Led a team of 15+ members to create a custom fault-tolerant system for rocketry systems.
+      - Developed systems for collecting data for avionics missions using Rust.
+    from: Jan 2023
+    to: Jan 2025
+    tags:
+      - Avionics
+      - Team Leadership
+      - Rust
+    location: West Lafayette, IN
+
+skills:
+  programming_languages:
+    - Java
+    - C#
+    - Python
+    - SQL
+    - MongoDB
+    - Swift
+    - Kotlin
+    - Svelte
+    - JavaScript
+    - TypeScript
+    - HTML
+    - CSS
+    - Rust
+    - C
+    - C++
+  frameworks:
+    - SvelteKit
+    - Django
+    - Actix Web
+    - Flask
+    - Spring Boot
+    - Express
+    - SwiftUI
+    - UIKit
+    - Jetpack Compose
+    - React
+    - Leptos
+    - GStreamer
+    - Unix
+    - Systemd
+    - PulseAudio
+    - CUDA
+    - CUTLASS
+    - NumPy
+    - PyTorch
+    - Pandas
+    - Burn
+    - SciPy
+    - Astro
+  platforms:
+    - EC2
+    - ECS
+    - S3
+    - Docker
+    - Docker Compose
+
+recognition:
+  - year: 2022
+    award: "Outstanding Graduate in Technology"
+    issuer: Chantilly High School
+    notes: SAT 1550
+
+clubs_and_associations:
+  - Purdue Orbital
+  - Purdue Hackers
+  - Purdue University Ski & Snowboard Club
+  - Boiler Book Club
+  - Purdue Theme Park Engineering & Design
+  - Mensa International
