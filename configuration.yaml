@@ -13,17 +13,18 @@ contacts:
     url: https://jackhogan.me
     displayText: www.jackhogan.me
 
-tagline: Double major in Computer Science and Artificial Intelligence with extensive experience in software engineering, AI/ML, and leadership roles in tech organizations.
+tagline: Double major in Computer Science and Artificial Intelligence with extensive experience in software engineering, AI/ML, and leadership roles in tech organizations. Has worked with a wide variety of machine learning models and frameworks.
 
 objective: "Aspiring researcher with a passion for AI/ML, low-level programming, and full-stack development. Seeking opportunities to leverage technical expertise, leadership skills, and a commitment to innovation in challenging and impactful projects."
 
 jobs:
-  - position: High-Performance Software Intern
+  - position: Software Engineering Intern, High-Performance Systems
     company:
       name: Leidos Innovation Center
     description:
-      - Created and refined GPU-based signal processing algorithms in CUDA, Rust, and Python for real-time applications.
-      - Developed a real-time machine learning system to lock onto hidden radar targets using PyTorch.
+      - Created and refined GPU-based signal processing algorithms in CUDA, Rust, and Python for real-time applications, improving performance by 400%.
+      - Developed a real-time machine learning system to lock onto hidden radar targets using PyTorch with 85+% accuracy.
+      - Resulting work will be deployed to active defense platforms.
     from: Summer 2024
     to: Present
     tags:
@@ -36,8 +37,9 @@ jobs:
     company:
       name: Peraton
     description:
-      - Expanded ServiceNow’s Artificial Intelligence module using JavaScript and Document Intelligence.
+      - Automated document processing systems using AI-based parsisng systems to increase processing efficiency.
       - Authored and presented a whitepaper on systems and processes developed, managing daily intern standups.
+      - Created ticket and process management websites for U.S. contractors.
     from: Summer 2023
     to: Present
     tags:
@@ -50,7 +52,7 @@ jobs:
     company:
       name: Alluja LLC
     description:
-      - Leading multiple technical projects, including mobile apps (SwiftUI), libraries (Swift, Rust), backend servers (Rust, Python), frontends (Svelte, Leptos), and BetterDiscord plugins with 5,000+ users.
+      - Creator of multiple products including mobile apps (SwiftUI), libraries (Swift, Rust), backend servers (Rust, Python), and frontends (Svelte, Leptos) impacting 5,000+ users.
     from: "2020"
     to: Present
     tags:
@@ -60,19 +62,17 @@ jobs:
     location: Chantilly, VA
 
 education:
-  - degree: Bachelor of Science Candidate
-    institution: Purdue University Honors College
+  - institution: Purdue University Honors College
     majors:
-      - Computer Science
-      - Artificial Intelligence
+      - Computer Science B.S.
+      - Artificial Intelligence B.S.
     minor: Mathematics
-    gpa: 3.6
+    gpa: 3.7
     from: Fall 2022
     to: Spring 2026
     location: West Lafayette, IN
     blurb:
-      - 3.75 GPA, 1550 SAT
-      - "Relevant Coursework: Data Structures, Machine Learning, AI, Analysis of Algorithms, Abstract Algebra"
+      - "Relevant Coursework: Data Structures, Machine Learning, Artificial Intelligence, Analysis of Algorithms, Abstract Algebra"
 
 research:
   - title: "Lead Researcher"

@@ -95,10 +95,10 @@
   )
   set text(9.8pt, font: "PT Sans")
   set page(
-    margin: (x: 1.2cm, y: 1.2cm),
+    margin: (x: 1cm, y: 1cm),
   )
 
-  show heading.where(level: 1) : it => text(16pt,[#{it.body} #v(1pt)])
+  show heading.where(level: 1) : it => text(16pt,[#{it.body} #v(-3pt)])
 
   show heading.where(
     level: 2,

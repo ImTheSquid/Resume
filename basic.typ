@@ -14,7 +14,7 @@
   // All the lines below are optional.
   // For example, if you want to to hide your phone number:
   // feel free to comment those lines out and they will not show.
-  location: address,
+  location: "",
   email: email,
   github: github,
   linkedin: linkedin,
@@ -42,13 +42,14 @@
 */
 == Education
 
-#for (institution, degree, majors, from, to, location, blurb, minor) in configuration.education [
+#for (institution, majors, from, to, location, blurb, minor, gpa) in configuration.education [
 #edu(
   institution: institution,
   location: location,
   dates: dates-helper(start-date: from, end-date: to),
-  degree: degree + " in " + majors.join(", ") + "; Minor: " + minor,
+  degree: majors.join(", ") + "; Minor in " + minor,
 )
+- #gpa GPA
 #for line in blurb [
   - #line
 ]

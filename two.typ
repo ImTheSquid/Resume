@@ -10,7 +10,7 @@
     (name: "website", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
     (name: "github", link: configuration.contacts.github.url, display: configuration.contacts.github.displayText),
     (name: "linkedin", link: configuration.contacts.linkedin.url, display: configuration.contacts.linkedin.displayText),
-    (name: "location", link: "", display: configuration.contacts.address)
+//    (name: "location", link: "", display: configuration.contacts.address)
   ),
   tagline: (configuration.tagline),
   [
@@ -48,9 +48,10 @@
 
     #for edu in configuration.education [
       === #edu.institution \
-      _ #edu.degree in #edu.majors.join(", ")\; Minor: #edu.minor _\
+      _ #edu.majors.join(", ")\; Minor in #edu.minor _\
       #term[#edu.from --- #edu.to][#edu.location]
 
+      - #edu.gpa GPA
       #for line in edu.blurb [
         - #line #linebreak()
       ]
