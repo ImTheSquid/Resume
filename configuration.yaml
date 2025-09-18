@@ -15,9 +15,38 @@ contacts:
 
 tagline: Double major in Computer Science and Artificial Intelligence with extensive experience in software engineering, AI/ML, and leadership roles in tech organizations. Has worked with a wide variety of machine learning models and frameworks.
 
-objective: "Aspiring researcher with a passion for AI/ML, low-level programming, and full-stack development. Seeking opportunities to leverage technical expertise, leadership skills, and a commitment to innovation in challenging and impactful projects."
+objective: "Machine learning researcher with a passion for reinforcement learning, low-level programming, and electronic and hardware design. Seeking opportunities to leverage technical expertise, leadership skills, and a commitment to innovation in challenging and impactful projects revolving around deep reinforcement learning, reasoning, policy optimization, and robotics."
 
 jobs:
+  - position: Fellow
+    company:
+      name: Era Computer
+    description:
+      - Creating Beacons, a hardware/software solution for fostering social connections at events
+      - Implementing complex techniques including RF design, high-frequency signal management, and constrained environment development
+      - Designing a cohesive software stack for registering, finding, and collaborating with Beacons using traditional and LLM-based machine learning techniques
+    from: September 2025
+    to: Present
+    tags:
+      - Research
+      - Machine Learning
+      - Hardware & Electrical Design
+    location: San Fransisco, CA/Remote
+  - position: Machine Learning Researcher
+    company:
+      name: Peraton Labs
+    description:
+      - Created a new pipeline for concurrently testing different GNN architctures, speeding up testing by 2-3x.
+      - Investigated and implemented multiple bleeding-edge GNN architectures, improving task accuracy by 50+%.
+      - Authored and presented a long-form report on a novel model architcutre created by myself and two other interns.
+    from: May 2025
+    to: Present
+    tags:
+      - PyTorch Geometric
+      - Graph Research
+      - Machine Learning
+    location: Silver Spring, MD
+
   - position: Software Engineering Intern, High-Performance Systems
     company:
       name: Leidos Innovation Center
@@ -25,8 +54,8 @@ jobs:
       - Created and refined GPU-based signal processing algorithms in CUDA, Rust, and Python for real-time applications, improving performance by 400%.
       - Developed a real-time machine learning system to lock onto hidden radar targets using PyTorch with 85+% accuracy.
       - Resulting work will be deployed to active defense platforms.
-    from: Summer 2024
-    to: Present
+    from: May 2024
+    to: August 2024
     tags:
       - GPU Programming
       - Signal Processing
@@ -40,8 +69,8 @@ jobs:
       - Automated document processing systems using AI-based parsisng systems to increase processing efficiency.
       - Authored and presented a whitepaper on systems and processes developed, managing daily intern standups.
       - Created ticket and process management websites for U.S. contractors.
-    from: Summer 2023
-    to: Present
+    from: May 2023
+    to: August 2023
     tags:
       - AI Development
       - JavaScript
@@ -53,6 +82,8 @@ jobs:
       name: Alluja LLC
     description:
       - Creator of multiple products including mobile apps (SwiftUI), libraries (Swift, Rust), backend servers (Rust, Python), and frontends (Svelte, Leptos) impacting 5,000+ users.
+      - Komori, a Discord Siri Shortcuts integration, with paid downloads on the App Store.
+      - Alluja WebSockets, a WebSocket testing client for macOS, with 100+ downloads.
     from: "2020"
     to: Present
     tags:
@@ -72,7 +103,7 @@ education:
     to: Spring 2026
     location: West Lafayette, IN
     blurb:
-      - "Relevant Coursework: Data Structures, Machine Learning, Artificial Intelligence, Analysis of Algorithms, Abstract Algebra"
+      - "Relevant Coursework: Data Structures, Graduate Machine Learning, Artificial Intelligence, Analysis of Algorithms, Abstract Algebra"
 
 research:
   - title: "Lead Researcher"
@@ -83,16 +114,20 @@ research:
     description:
       - Leading a faculty-selected research team focused on solutions for source code plagiarism in Purdue’s Computer Science program.
       - Researching Abstract Syntax Trees, source code lexing and parsing, and machine learning techniques.
+      - Using novel techniques to develop a language-agnostic system for detecting plagairism across classes and project requirements.
     tags:
       - Research
       - Machine Learning
       - Academic Integrity
 
-  - title: Engineering Division Lead
+  - title: Engineering Division Lead & Interim President
     group: Purdue Hackers
     description:
       - Overseeing all engineering projects, managing time and budget restrictions while keeping engineering officers on pace.
       - Managing the infrastructure for the Passports initiative, including authentication and management systems written in Rust and TypeScript.
+      - Worked on a large-scale project called The Sign, a meter-tall representation of a Conway glider, the Purdue Hackers logo. Project accepted to Hackaday and received 1000+ hits.
+      - Working on Beacons alongside Era Computer for rapid deployment at events.
+      - Ran all club events including a 200+ person callout and coordinated 10+ officers during a presidential transition period.
     from: Jan 2024
     to: Present
     tags:
@@ -169,8 +204,8 @@ recognition:
     notes: SAT 1550
 
 clubs_and_associations:
-  - Purdue Orbital
   - Purdue Hackers
+  - Purdue Orbital
   - Purdue University Ski & Snowboard Club
   - Boiler Book Club
   - Purdue Theme Park Engineering & Design
