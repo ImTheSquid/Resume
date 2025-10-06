@@ -13,7 +13,7 @@ contacts:
     url: https://jackhogan.me
     displayText: www.jackhogan.me
 
-tagline: Computer Science and Artificial Intelligence double major (minor in Mathematics) with hands-on experience in software engineering, AI/ML research, and leadership in technical organizations. Skilled at building production-ready systems and advancing state-of-the-art machine learning models.
+tagline: Computer Science and Artificial Intelligence double major (minor in Mathematics) with hands-on experience in software engineering, AI/ML research, and technical leadership. Passionate about deep reinforcement learning and developing systems that enable models to reason, adapt, and learn complex behaviors. Experienced in creating production-ready software and advancing machine learning architectures, with applications in robotics, vision, and low-data learning. Seeking opportunities to contribute to impactful projects at the intersection of applied AI research and scalable, high-performance systems.
 
 objective: "Machine learning researcher with a passion for deep reinforcement learning, where I hope to discover new and innovative ways to make models learn complex policies with applications in problem analysis, critical thinking, robotics, vision, and low-data learning. Seeking opportunities to leverage technical expertise, leadership skills, and a commitment to innovation in challenging and impactful projects revolving around deep reinforcement learning, reasoning, policy optimization, and robotics."
 
@@ -37,7 +37,7 @@ jobs:
       name: Peraton Labs
     description:
       - Created a new pipeline for concurrently testing different GNN architectures, speeding up testing by 2-3x.
-      - Investigated and implemented multiple bleeding-edge GNN architectures, improving task accuracy by 50+%.
+      - Investigated and implemented multiple bleeding-edge GNN architectures, improving task accuracy by 50%+.
       - Developed and presented a technical report on a novel GNN architecture, demonstrating significant performance gains and guiding next-phase research.
     from: May 2025
     to: Present
@@ -52,7 +52,7 @@ jobs:
       name: Leidos Innovation Center
     description:
       - Created and refined GPU-based signal processing algorithms in CUDA, Rust, and Python for real-time applications, improving performance by 400%.
-      - Developed a real-time machine learning system to lock onto hidden radar targets using PyTorch with 85+% accuracy.
+      - Developed a real-time machine learning system to lock onto hidden radar targets using PyTorch with 85%+ accuracy.
       - Resulting work will be deployed to active defense platforms.
     from: May 2024
     to: August 2024
