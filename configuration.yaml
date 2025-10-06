@@ -13,16 +13,16 @@ contacts:
     url: https://jackhogan.me
     displayText: www.jackhogan.me
 
-tagline: Double major in Computer Science and Artificial Intelligence with extensive experience in software engineering, AI/ML, and leadership roles in tech organizations. Has worked with a wide variety of machine learning models and frameworks.
+tagline: Computer Science and Artificial Intelligence double major (minor in Mathematics) with hands-on experience in software engineering, AI/ML research, and leadership in technical organizations. Skilled at building production-ready systems and advancing state-of-the-art machine learning models.
 
-objective: "Machine learning researcher with a passion for reinforcement learning, low-level programming, and electronic and hardware design. Seeking opportunities to leverage technical expertise, leadership skills, and a commitment to innovation in challenging and impactful projects revolving around deep reinforcement learning, reasoning, policy optimization, and robotics."
+objective: "Machine learning researcher with a passion for deep reinforcement learning, where I hope to discover new and innovative ways to make models learn complex policies with applications in problem analysis, critical thinking, robotics, vision, and low-data learning. Seeking opportunities to leverage technical expertise, leadership skills, and a commitment to innovation in challenging and impactful projects revolving around deep reinforcement learning, reasoning, policy optimization, and robotics."
 
 jobs:
   - position: Fellow
     company:
       name: Era Computer
     description:
-      - Creating Beacons, a hardware/software solution for fostering social connections at events
+      - Creator and lead engineer of Beacons, a hardware/software solution for fostering real-time social connections at events
       - Implementing complex techniques including RF design, high-frequency signal management, and constrained environment development
       - Designing a cohesive software stack for registering, finding, and collaborating with Beacons using traditional and LLM-based machine learning techniques
     from: September 2025
@@ -31,14 +31,14 @@ jobs:
       - Research
       - Machine Learning
       - Hardware & Electrical Design
-    location: San Fransisco, CA/Remote
+    location: San Francisco, CA/Remote
   - position: Machine Learning Researcher
     company:
       name: Peraton Labs
     description:
-      - Created a new pipeline for concurrently testing different GNN architctures, speeding up testing by 2-3x.
+      - Created a new pipeline for concurrently testing different GNN architectures, speeding up testing by 2-3x.
       - Investigated and implemented multiple bleeding-edge GNN architectures, improving task accuracy by 50+%.
-      - Authored and presented a long-form report on a novel model architcutre created by myself and two other interns.
+      - Developed and presented a technical report on a novel GNN architecture, demonstrating significant performance gains and guiding next-phase research.
     from: May 2025
     to: Present
     tags:
@@ -66,9 +66,10 @@ jobs:
     company:
       name: Peraton
     description:
-      - Automated document processing systems using AI-based parsisng systems to increase processing efficiency.
-      - Authored and presented a whitepaper on systems and processes developed, managing daily intern standups.
-      - Created ticket and process management websites for U.S. contractors.
+      - Automated document processing systems using AI-based parsing systems to increase processing efficiency.
+      - Authored and presented a whitepaper on systems and processes developed.
+      - Managing daily intern standups and kept tasks on track.
+      - Created data ingest and management dashboards for U.S. contractors.
     from: May 2023
     to: August 2023
     tags:
@@ -104,37 +105,40 @@ education:
     location: West Lafayette, IN
     blurb:
       - "Relevant Coursework: Data Structures, Graduate Machine Learning, Artificial Intelligence, Analysis of Algorithms, Abstract Algebra"
+      - "Study Abroad: University College Dublin, Spring 2024 — Coursework in cognitive psychology, philosophy of mind, and human decision-making related to AI’s cognitive, reasoning, and ethical foundations."
 
 research:
-  - title: "Lead Researcher"
-    group: "Detecting Source Code Plagiarism in Submitted Assignments"
-    location: "West Lafayette, IN"
-    from: Spring 2023
-    to: Present
-    description:
-      - Leading a faculty-selected research team focused on solutions for source code plagiarism in Purdue’s Computer Science program.
-      - Researching Abstract Syntax Trees, source code lexing and parsing, and machine learning techniques.
-      - Using novel techniques to develop a language-agnostic system for detecting plagairism across classes and project requirements.
-    tags:
-      - Research
-      - Machine Learning
-      - Academic Integrity
-
   - title: Engineering Division Lead & Interim President
     group: Purdue Hackers
     description:
-      - Overseeing all engineering projects, managing time and budget restrictions while keeping engineering officers on pace.
-      - Managing the infrastructure for the Passports initiative, including authentication and management systems written in Rust and TypeScript.
-      - Worked on a large-scale project called The Sign, a meter-tall representation of a Conway glider, the Purdue Hackers logo. Project accepted to Hackaday and received 1000+ hits.
-      - Working on Beacons alongside Era Computer for rapid deployment at events.
-      - Ran all club events including a 200+ person callout and coordinated 10+ officers during a presidential transition period.
-    from: Jan 2024
+      - Overseeing all engineering projects for Purdue Hackers, a 2000+ member student organization focused on innovation and rapid prototyping.
+      - Managed a team of 10+ officers, balancing budget and time constraints while delivering multiple large-scale technical initiatives.
+      - Designed and maintained infrastructure for the Passports initiative, including authentication and management systems in Rust and TypeScript, supporting hundreds of active users.
+      - Led development of The Sign, a meter-tall Conway glider installation representing the club’s logo; project was accepted to Hackaday and drew 1,000+ online views.
+      - Spearheading the Beacons project in collaboration with Era Computer, deploying early prototypes at student events.
+      - Organized and ran major events, including a 200+ person callout, hack nights, and technical workshops, while guiding a smooth presidential transition.
+    from: Jan 2022
     to: Present
     tags:
       - Leadership
       - Rust
       - TypeScript
     location: West Lafayette, IN
+
+  - title: "Lead Researcher"
+    group: "Detecting Source Code Plagiarism in Submitted Assignments"
+    location: "West Lafayette, IN"
+    from: Spring 2023
+    to: Fall 2025
+    description:
+      - Selected by Purdue faculty to lead an independent research project addressing plagiarism detection in the Computer Science program.
+      - Designing a language-agnostic detection system using Abstract Syntax Trees, parsing techniques, and machine learning to identify similarity beyond surface-level code patterns.
+      - Conducted large-scale testing across multiple courses, targeting 1,000+ student submissions annually to improve fairness and academic integrity.
+      - Preparing a sole-author paper for submission to NeurIPS presenting novel methods for scalable, cross-language plagiarism detection.
+    tags:
+      - Research
+      - Machine Learning
+      - Academic Integrity
 
   - title: Avionics Design Lead
     group: Purdue Orbital

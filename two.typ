@@ -48,7 +48,7 @@
 
     #for edu in configuration.education [
       === #edu.institution \
-      _ #edu.majors.join(", ")\; Minor in #edu.minor _\
+      _ #edu.majors.join(", ")\; Minor in #edu.minor\; Graduating #edu.to _\
       #term[#edu.from --- #edu.to][#edu.location]
 
       - #edu.gpa GPA
@@ -56,7 +56,6 @@
         - #line #linebreak()
       ]
     ]
-
 
     // == Technical Expertise
 
@@ -66,10 +65,11 @@
 
     == Skills/Exposure
 
-    #box(height: 23%)[
-    #columns(3, gutter: 1%)[
+    #box(height: 32%)[
+    #columns(3, gutter: 4%)[
     #for skill in configuration.skills.programming_languages + configuration.skills.frameworks [
       - #skill
+      #v(.05em)
     ]
     ]
     ]
@@ -79,10 +79,14 @@
     //   • #method
     // ]
 
+
+    #colbreak()
+
     == Tools
     #for tool in configuration.skills.platforms [
       • #tool
     ]
+
 
     == Associations
 

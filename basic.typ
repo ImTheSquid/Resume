@@ -47,7 +47,7 @@
   institution: institution,
   location: location,
   dates: dates-helper(start-date: from, end-date: to),
-  degree: majors.join(", ") + "; Minor in " + minor,
+  degree: majors.join(", ") + "; Minor in " + minor + "; Graduating " + to,
 )
 - #gpa GPA
 #for line in blurb [
@@ -84,6 +84,8 @@
 // - Maintain open-source scheduler used by 7000+ users at the Claremont Consortium with TypeScript, React and MongoDB
 //   - Manage PR reviews, bug fixes, and coordinate with college for releasing scheduling data and over \$1500 of yearly funding
 // - Ensure 99.99% uptime during peak loads of 1M daily requests during course registration through redundant servers
+
+#pagebreak()
 
 == Research & Leadership
 
