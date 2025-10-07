@@ -22,9 +22,9 @@ jobs:
     company:
       name: Era Computer
     description:
-      - Creator and lead engineer of Beacons, a hardware/software solution for fostering real-time social connections at events
-      - Implementing complex techniques including RF design, high-frequency signal management, and constrained environment development
-      - Designing a cohesive software stack for registering, finding, and collaborating with Beacons using traditional and LLM-based machine learning techniques
+      - Creator and lead engineer of Beacons, a hardware/software solution for fostering real-time social connections at events.
+      - Implementing complex techniques including RF design, high-frequency signal management, and constrained environment development.
+      - Designing a cohesive software stack for registering, finding, and collaborating with Beacons using traditional and LLM-based machine learning techniques.
     from: September 2025
     to: Present
     tags:
