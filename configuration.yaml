@@ -18,20 +18,20 @@ tagline: Computer Science and Artificial Intelligence double major (minor in Mat
 objective: "Machine learning researcher with a passion for deep reinforcement learning, where I hope to discover new and innovative ways to make models learn complex policies with applications in problem analysis, critical thinking, robotics, vision, and low-data learning. Seeking opportunities to leverage technical expertise, leadership skills, and a commitment to innovation in challenging and impactful projects revolving around deep reinforcement learning, reasoning, policy optimization, and robotics."
 
 jobs:
-  - position: Fellow
+  - position: Full-Stack Engineer
     company:
       name: Era Labs
     description:
-      - Creator and lead engineer of Beacons, a hardware/software solution for fostering real-time social connections at events.
-      - Implementing complex techniques including RF design, high-frequency signal management, and constrained environment development.
-      - Designing a cohesive software stack for registering, finding, and collaborating with Beacons using traditional and LLM-based machine learning techniques.
-    from: September 2025
+      - Designed and implemented a patent-pending firmware architecture supporting dynamic peripheral registration and bytecode execution for ~100ms idea iteration.
+      - Designing and fabricating circuits for new product lines with microamp-scale power draws and efficient layouts.
+      - During my fellowship with Era from 2025-2026, I designed a cohesive software stack for registering, finding, and collaborating with Beacons, a hardware/software solution for fostering real-time social connections at events, using traditional and LLM-based machine learning techniques.    
+    from: August 2026
     to: Present
     tags:
       - Research
       - Machine Learning
       - Hardware & Electrical Design
-    location: San Francisco, CA/Remote
+    location: San Francisco, CA
   - position: Machine Learning Researcher
     company:
       name: Peraton Labs
