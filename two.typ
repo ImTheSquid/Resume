@@ -48,24 +48,18 @@
 
     #for edu in configuration.education [
       === #edu.institution \
-      _ #edu.majors.join(", ")\; Minor in #edu.minor\; Graduating #edu.to _\
+      _ #edu.majors.join(", ")\; Minor in #edu.minor\; Graduated #edu.to _\
       #term[#edu.from --- #edu.to][#edu.location]
 
-      - #edu.gpa GPA
       #for line in edu.blurb [
         - #line #linebreak()
       ]
     ]
 
-    // == Technical Expertise
-
-    // #for expertise in configuration.technical_expertise [
-    //   #skill(expertise.name, expertise.level)
-    // ]
-
     == Skills/Exposure
 
-    #box(height: 32%)[
+    // Fixed height balances the 3 columns; retune if the skill list changes length
+    #box(height: 26%)[
     #columns(3, gutter: 4%)[
     #for skill in configuration.skills.programming_languages + configuration.skills.frameworks [
       - #skill
@@ -74,24 +68,9 @@
     ]
     ]
 
-    // == Methodology/Approach
-    // #for method in configuration.methodology [
-    //   • #method
-    // ]
-
-
-    #colbreak()
-
     == Tools
     #for tool in configuration.skills.platforms [
       • #tool
-    ]
-
-
-    == Associations
-
-    #for achievement in configuration.clubs_and_associations [
-      - #achievement
     ]
 
   ]
